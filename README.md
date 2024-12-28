@@ -1,6 +1,6 @@
 # Browser Terminal
 
-A terminal-like experience in browser UI.
+A terminal-like experience in browser UI. Preview the live demo <a href="https://5aharsh.github.io/browser-terminal/">here</a>.
 
 ## About
 
