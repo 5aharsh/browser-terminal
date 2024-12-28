@@ -4,7 +4,7 @@ A terminal-like experience in browser UI. Preview the live demo <a href="https:/
 
 ## About
 
-This used to be my old portfolio site to display my work. However, I realized not many hiring folks would find it very amusing to navigate around a terminal to know about me. So, I simplified my portfolio a bit and decided to move this code in here. It's not very re-usable but it looks cool, so why not ¯\_(ツ)_/¯
+This used to be my old portfolio site to display my work. However, I realized not many hiring folks would find it very amusing to navigate around a terminal to know about me. So, I simplified my portfolio a bit and decided to move this code in here. It's not very re-usable but it looks cool, so why not ¯\\\_(ツ)\_/¯
 
 ## Files
 
