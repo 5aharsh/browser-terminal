@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #1e1e1e;
+    color: #cac7c4;
+    font-size: 17px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+::selection {
+    background: #e7e7e7;
+    color: #0f0f0f
+}
+
+body > * {
+    transition: all 0.3s ease ;
+}
+
+a {
+    color: #cac7c4;
+    font-weight: 600;
+    text-decoration: none;
+    padding-bottom: 3px;
+}
+
+a:hover {
+    border-bottom: 2px solid #5f5d53;
+}
+
+/* Terminal <span> stylings starts */
+
+.t-thin {
+    font-weight: 300;
+}
+
+.t-bold {
+    font-weight: 600;
+}
+
+/* Terminal <span> stylings ends */
+
+#header {
+    background-image: linear-gradient(#5f5d53, #42413c);
+    color: #f0e9e9;
+    text-shadow: 1px 1px 1px #000000;
+    width: 100%;
+    user-select: none;
+}
+
+#header .header-icon {
+    font-weight: 500;
+    padding-left: 10px;
+    position: absolute;
+    text-shadow: 0px 0px 2px #000000;
+}
+
+#header .header-icon i {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#header .header-title {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 5px 0;
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#terminal {
+    background: none;
+    overflow-wrap: break-word;
+    height: 100%;
+    width: 100%;
+}
+
+.terminal-info > * {
+    padding: 0 !important;
+}
+
+.terminal-info #terminal-helper {
+    background: #3a3a3a
+}
+
+#terminal .terminal-line {
+    display: block;
+    padding: 3px;
+}
+
+#terminal .terminal-line > h1, h2, h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#terminal #terminal-pointer {
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+#terminal #terminal-pointer span {
+    font-weight: 300;
+}
+
+#terminal .input {
+    box-sizing: border-box;
+    border: 0;
+    background: #1e1e1e;
+    color:#cac7c4;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+    overflow: hidden;
+    outline: 0;
+    padding: 3px 0 3px 0;
+    resize: none;
+    width: 100%;
+    font-weight: 300;
+}
+
+#terminal .input:focus {
+    outline: none;
+}
