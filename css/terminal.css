@@ -123,3 +123,36 @@ a:hover {
 #terminal .input:focus {
     outline: none;
 }
+
+#loading-bar-container {
+    align-items: center;
+    background: #1e1e1e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 9999;
+}
+
+.os-logo {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+
+.loading-bar {
+    border-radius: 2px;
+    display: block;
+    width: 0;
+    height: 5px;
+    background-color: #f0f0f0;
+    animation: load 2s ease-in forwards;
+}
+
+@keyframes load {
+    0% { width: 0; }
+    100% { width: 400px; }
+}

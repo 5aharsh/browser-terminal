@@ -32,3 +32,15 @@ var terminalType = (txt, i) => {
 window.onload = focusTermInput();
 
 document.addEventListener("mouseup", focusTermInput);
+
+window.addEventListener('load', function() {
+    setTimeout(() => {
+        var loader = document.getElementById('loading-bar-container');
+        loader.style.transition = 'opacity 0.5s ease';
+        loader.style.opacity = '0';
+        setTimeout(() => {
+            loader.style.display = 'none';
+        }, 500);
+    }, 1500);
+    
+});
